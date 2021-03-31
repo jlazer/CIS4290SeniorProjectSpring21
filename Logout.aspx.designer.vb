@@ -10,24 +10,26 @@
 Option Strict On
 Option Explicit On
 
+Namespace CIS4250SeniorProject
 
-Partial Public Class Logout
+    Partial Public Class Logout
 
-    '''<summary>
-    '''lblAccount control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblAccount As Global.System.Web.UI.WebControls.Label
+        '''<summary>
+        '''lblAccount control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents lblAccount As Global.System.Web.UI.WebControls.Label
 
-    '''<summary>
-    '''btnLogout control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnLogout As Global.System.Web.UI.WebControls.Button
-End Class
+        '''<summary>
+        '''btnLogout control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents btnLogout As Global.System.Web.UI.WebControls.Button
+    End Class
+End Namespace

@@ -10,87 +10,89 @@
 Option Strict On
 Option Explicit On
 
+Namespace CIS4250SeniorProject
 
-Partial Public Class Category
+    Partial Public Class Category
 
-    '''<summary>
-    '''lblProductList control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblProductList As Global.System.Web.UI.WebControls.Label
+        '''<summary>
+        '''lblProductList control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents lblProductList As Global.System.Web.UI.WebControls.Label
 
-    '''<summary>
-    '''lblMainCategoryName control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblMainCategoryName As Global.System.Web.UI.WebControls.Label
+        '''<summary>
+        '''lblMainCategoryName control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents lblMainCategoryName As Global.System.Web.UI.WebControls.Label
 
-    '''<summary>
-    '''SqlDSSubCategory control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDSSubCategory As Global.System.Web.UI.WebControls.SqlDataSource
+        '''<summary>
+        '''SqlDSSubCategory control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents SqlDSSubCategory As Global.System.Web.UI.WebControls.SqlDataSource
 
-    '''<summary>
-    '''rpSubCategory control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents rpSubCategory As Global.System.Web.UI.WebControls.Repeater
+        '''<summary>
+        '''rpSubCategory control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents rpSubCategory As Global.System.Web.UI.WebControls.Repeater
 
-    '''<summary>
-    '''SqlDSProductList control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDSProductList As Global.System.Web.UI.WebControls.SqlDataSource
+        '''<summary>
+        '''SqlDSProductList control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents SqlDSProductList As Global.System.Web.UI.WebControls.SqlDataSource
 
-    '''<summary>
-    '''rpProductList control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents rpProductList As Global.System.Web.UI.WebControls.Repeater
+        '''<summary>
+        '''rpProductList control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents rpProductList As Global.System.Web.UI.WebControls.Repeater
 
-    '''<summary>
-    '''SqlDataSource1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+        '''<summary>
+        '''SqlDataSource1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
 
-    '''<summary>
-    '''Repeater1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Repeater1 As Global.System.Web.UI.WebControls.Repeater
+        '''<summary>
+        '''Repeater1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents Repeater1 As Global.System.Web.UI.WebControls.Repeater
 
-    '''<summary>
-    '''Repeater2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Repeater2 As Global.System.Web.UI.WebControls.Repeater
-End Class
+        '''<summary>
+        '''Repeater2 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents Repeater2 As Global.System.Web.UI.WebControls.Repeater
+    End Class
+End Namespace

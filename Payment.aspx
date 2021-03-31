@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Payment.aspx.vb" Inherits="CIS4250Fall2020OnlineStoreJDavid.Payment" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Payment.aspx.vb" Inherits="CIS4250SeniorProject.Payment" %>
 
 <!DOCTYPE html>
 

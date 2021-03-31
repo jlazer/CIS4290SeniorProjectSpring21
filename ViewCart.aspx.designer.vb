@@ -10,78 +10,80 @@
 Option Strict On
 Option Explicit On
 
+Namespace CIS4250SeniorProject
 
-Partial Public Class ViewCart
+    Partial Public Class ViewCart
 
-    '''<summary>
-    '''sqlDSCart1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents sqlDSCart1 As Global.System.Web.UI.WebControls.SqlDataSource
+        '''<summary>
+        '''sqlDSCart1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents sqlDSCart1 As Global.System.Web.UI.WebControls.SqlDataSource
 
-    '''<summary>
-    '''lvCart control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lvCart As Global.System.Web.UI.WebControls.ListView
+        '''<summary>
+        '''lvCart control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents lvCart As Global.System.Web.UI.WebControls.ListView
 
-    '''<summary>
-    '''show_prev control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents show_prev As Global.System.Web.UI.WebControls.Button
+        '''<summary>
+        '''show_prev control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents show_prev As Global.System.Web.UI.WebControls.Button
 
-    '''<summary>
-    '''DataPager1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents DataPager1 As Global.System.Web.UI.WebControls.DataPager
+        '''<summary>
+        '''DataPager1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents DataPager1 As Global.System.Web.UI.WebControls.DataPager
 
-    '''<summary>
-    '''show_next control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents show_next As Global.System.Web.UI.WebControls.Button
+        '''<summary>
+        '''show_next control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents show_next As Global.System.Web.UI.WebControls.Button
 
-    '''<summary>
-    '''vsQuantity control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents vsQuantity As Global.System.Web.UI.WebControls.ValidationSummary
+        '''<summary>
+        '''vsQuantity control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents vsQuantity As Global.System.Web.UI.WebControls.ValidationSummary
 
-    '''<summary>
-    '''btnEmptyCart control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnEmptyCart As Global.System.Web.UI.WebControls.Button
+        '''<summary>
+        '''btnEmptyCart control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents btnEmptyCart As Global.System.Web.UI.WebControls.Button
 
-    '''<summary>
-    '''lblTotal control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblTotal As Global.System.Web.UI.WebControls.Label
-End Class
+        '''<summary>
+        '''lblTotal control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents lblTotal As Global.System.Web.UI.WebControls.Label
+    End Class
+End Namespace

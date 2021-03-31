@@ -10,42 +10,44 @@
 Option Strict On
 Option Explicit On
 
+Namespace CIS4250SeniorProject
 
-Partial Public Class Payment
+    Partial Public Class Payment
 
-    '''<summary>
-    '''form1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+        '''<summary>
+        '''form1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-    '''<summary>
-    '''tbCreditCard control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents tbCreditCard As Global.System.Web.UI.WebControls.TextBox
+        '''<summary>
+        '''tbCreditCard control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents tbCreditCard As Global.System.Web.UI.WebControls.TextBox
 
-    '''<summary>
-    '''btnAPI control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnAPI As Global.System.Web.UI.WebControls.Button
+        '''<summary>
+        '''btnAPI control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents btnAPI As Global.System.Web.UI.WebControls.Button
 
-    '''<summary>
-    '''lblReturnArray control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblReturnArray As Global.System.Web.UI.WebControls.Label
-End Class
+        '''<summary>
+        '''lblReturnArray control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents lblReturnArray As Global.System.Web.UI.WebControls.Label
+    End Class
+End Namespace

@@ -10,6 +10,7 @@ Public Class Category
             SqlDSProductList.SelectCommand = strSQL
             lblProductList.Text = "Search Results for " & Request.QueryString("SearchString")
         End If
+
         If Request.QueryString("MainCategoryID") <> "" Then
             If Session("Customer") <> "" Then
                 Repeater1.Visible = False
@@ -20,6 +21,7 @@ Public Class Category
             ' assign selectcommand to SqlDSProductList for the featured products of the Main Category
             SqlDSProductList.SelectCommand = "Select * From Product Where productfeature = 1 and maincategoryid = " & CInt(Request.QueryString("MainCategoryID"))
         End If
+
         If Request.QueryString("SubCategoryID") <> "" Then
             SqlDSProductList.SelectCommand = "Select * From Product Where subcategoryid = " & CInt(Request.QueryString("SubCategoryID"))
             lblProductList.Text = Request.QueryString("SubCategoryName")

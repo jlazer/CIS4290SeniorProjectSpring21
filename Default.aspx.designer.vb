@@ -10,6 +10,8 @@
 Option Strict On
 Option Explicit On
 
+Namespace CIS4250SeniorProject
 
-Partial Public Class _Default
-End Class
+    Partial Public Class _Default
+    End Class
+End Namespace

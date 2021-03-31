@@ -10,24 +10,26 @@
 Option Strict On
 Option Explicit On
 
+Namespace CIS4250SeniorProject
 
-Partial Public Class ViewCart1
+    Partial Public Class ViewCart1
 
-    '''<summary>
-    '''SqlDSCart control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDSCart As Global.System.Web.UI.WebControls.SqlDataSource
+        '''<summary>
+        '''SqlDSCart control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents SqlDSCart As Global.System.Web.UI.WebControls.SqlDataSource
 
-    '''<summary>
-    '''gvCart control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents gvCart As Global.System.Web.UI.WebControls.GridView
-End Class
+        '''<summary>
+        '''gvCart control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents gvCart As Global.System.Web.UI.WebControls.GridView
+    End Class
+End Namespace
